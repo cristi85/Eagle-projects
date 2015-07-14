@@ -13401,11 +13401,11 @@ Source: www.kingbright.com</description>
 <smd name="P$2" x="0" y="-3.15" dx="2.2" dy="1.5" layer="1"/>
 </package>
 <package name="RFM83C/83CL_CONN">
-<pad name="2_1" x="2.54" y="0" drill="0.8" shape="square" rot="R90"/>
-<pad name="3_1" x="21.38" y="0" drill="0.8" shape="square" rot="R90"/>
-<pad name="4_1" x="23.92" y="0" drill="0.8" rot="R90"/>
-<pad name="5_1" x="26.46" y="0" drill="0.8" rot="R90"/>
-<pad name="6_1" x="29" y="0" drill="0.8" rot="R90"/>
+<pad name="2_1" x="2.54" y="0" drill="0.6" shape="square" rot="R90"/>
+<pad name="3_1" x="21.38" y="0" drill="0.6" shape="square" rot="R90"/>
+<pad name="4_1" x="23.92" y="0" drill="0.6" rot="R90"/>
+<pad name="5_1" x="26.46" y="0" drill="0.6" rot="R90"/>
+<pad name="6_1" x="29" y="0" drill="0.6" rot="R90"/>
 <text x="-0.2762" y="4.1588" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-0.7" y="1.915" size="1.27" layer="27">&gt;VALUE</text>
 <pad name="2" x="2.54" y="-1.1" drill="0.8" rot="R90"/>
@@ -13988,6 +13988,8 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="C1" library="resistor" deviceset="C-EU" device="C0805K" value="10u"/>
 <part name="GND1" library="supply" deviceset="GND" device=""/>
 <part name="R12" library="resistor" deviceset="R-EU_" device="R0603" value="47"/>
+<part name="C13" library="resistor" deviceset="C-EU" device="C0603K" value="100n"/>
+<part name="GND17" library="supply" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14023,12 +14025,12 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <instance part="+3V35" gate="G$1" x="187.96" y="167.64"/>
 <instance part="GND15" gate="1" x="182.88" y="157.48" rot="R270"/>
 <instance part="LED1" gate="G$1" x="53.34" y="162.56" rot="R270"/>
-<instance part="R1" gate="G$1" x="25.4" y="43.18" rot="R180"/>
+<instance part="R1" gate="G$1" x="25.4" y="33.02" rot="R180"/>
 <instance part="C10" gate="G$1" x="160.02" y="142.24"/>
 <instance part="IC1" gate="G$1" x="73.66" y="45.72"/>
 <instance part="GND8" gate="1" x="132.08" y="40.64"/>
 <instance part="GND5" gate="1" x="50.8" y="27.94"/>
-<instance part="+3V34" gate="G$1" x="180.34" y="60.96"/>
+<instance part="+3V34" gate="G$1" x="187.96" y="60.96"/>
 <instance part="D2" gate="G$1" x="127" y="48.26" rot="R90"/>
 <instance part="L1" gate="G$1" x="116.84" y="53.34" rot="R90"/>
 <instance part="D1" gate="G$1" x="127" y="60.96" rot="R90"/>
@@ -14041,11 +14043,11 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <instance part="R4" gate="G$1" x="88.9" y="119.38" rot="R90"/>
 <instance part="R3" gate="G$1" x="63.5" y="134.62"/>
 <instance part="GND6" gate="1" x="66.04" y="121.92"/>
-<instance part="IC2" gate="G$1" x="167.64" y="53.34"/>
-<instance part="C11" gate="G$1" x="180.34" y="50.8"/>
-<instance part="GND14" gate="1" x="180.34" y="43.18"/>
+<instance part="IC2" gate="G$1" x="175.26" y="53.34"/>
+<instance part="C11" gate="G$1" x="187.96" y="50.8"/>
+<instance part="GND14" gate="1" x="187.96" y="43.18"/>
 <instance part="C8" gate="G$1" x="149.86" y="50.8"/>
-<instance part="GND13" gate="1" x="167.64" y="43.18"/>
+<instance part="GND13" gate="1" x="175.26" y="43.18"/>
 <instance part="GND10" gate="1" x="149.86" y="43.18"/>
 <instance part="RF1" gate="G$1" x="45.72" y="93.98"/>
 <instance part="C2" gate="G$1" x="25.4" y="91.44"/>
@@ -14057,6 +14059,8 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <instance part="C1" gate="G$1" x="15.24" y="91.44"/>
 <instance part="GND1" gate="1" x="15.24" y="83.82"/>
 <instance part="R12" gate="G$1" x="220.98" y="109.22"/>
+<instance part="C13" gate="G$1" x="157.48" y="50.8"/>
+<instance part="GND17" gate="1" x="157.48" y="43.18"/>
 </instances>
 <busses>
 </busses>
@@ -14163,6 +14167,10 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <junction x="238.76" y="134.62"/>
 <junction x="241.3" y="134.62"/>
 </segment>
+<segment>
+<pinref part="C13" gate="G$1" pin="2"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="BTN1" class="0">
 <segment>
@@ -14221,10 +14229,10 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <segment>
 <pinref part="IC2" gate="G$1" pin="VO"/>
 <pinref part="C11" gate="G$1" pin="1"/>
-<wire x1="177.8" y1="53.34" x2="180.34" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="53.34" x2="187.96" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="+3V34" gate="G$1" pin="+3V3"/>
-<wire x1="180.34" y1="53.34" x2="180.34" y2="58.42" width="0.1524" layer="91"/>
-<junction x="180.34" y="53.34"/>
+<wire x1="187.96" y1="53.34" x2="187.96" y2="58.42" width="0.1524" layer="91"/>
+<junction x="187.96" y="53.34"/>
 </segment>
 <segment>
 <pinref part="RF1" gate="G$1" pin="VCC"/>
@@ -14254,9 +14262,9 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <label x="25.4" y="127" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="38.1" y1="33.02" x2="12.7" y2="33.02" width="0.1524" layer="91"/>
-<label x="12.7" y="33.02" size="1.778" layer="95"/>
-<pinref part="B1" gate="G$1" pin="AC2"/>
+<pinref part="B1" gate="G$1" pin="AC1"/>
+<wire x1="38.1" y1="43.18" x2="12.7" y2="43.18" width="0.1524" layer="91"/>
+<label x="12.7" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED_TX_ERR1" class="0">
@@ -14284,13 +14292,6 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <pinref part="IC3" gate="G$1" pin="PC4"/>
 </segment>
 </net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="B1" gate="G$1" pin="AC1"/>
-<wire x1="30.48" y1="43.18" x2="38.1" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="L" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="P$1"/>
@@ -14299,8 +14300,8 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="20.32" y1="43.18" x2="12.7" y2="43.18" width="0.1524" layer="91"/>
-<label x="12.7" y="43.18" size="1.778" layer="95"/>
+<wire x1="20.32" y1="33.02" x2="12.7" y2="33.02" width="0.1524" layer="91"/>
+<label x="12.7" y="33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
@@ -14429,12 +14430,15 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <wire x1="132.08" y1="53.34" x2="142.24" y2="53.34" width="0.1524" layer="91"/>
 <junction x="132.08" y="53.34"/>
 <pinref part="IC2" gate="G$1" pin="VI"/>
-<wire x1="157.48" y1="53.34" x2="149.86" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="53.34" x2="157.48" y2="53.34" width="0.1524" layer="91"/>
 <junction x="142.24" y="53.34"/>
 <pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="157.48" y1="53.34" x2="149.86" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="53.34" x2="142.24" y2="53.34" width="0.1524" layer="91"/>
 <junction x="149.86" y="53.34"/>
 <label x="144.78" y="53.34" size="1.778" layer="95"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<junction x="157.48" y="53.34"/>
 </segment>
 </net>
 <net name="RF_DATA" class="0">
@@ -14469,6 +14473,13 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <pinref part="R12" gate="G$1" pin="1"/>
 <pinref part="IC3" gate="G$1" pin="PB2"/>
 <wire x1="215.9" y1="109.22" x2="213.36" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="B1" gate="G$1" pin="AC2"/>
+<wire x1="30.48" y1="33.02" x2="38.1" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
