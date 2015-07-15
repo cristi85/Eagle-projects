@@ -13343,7 +13343,7 @@ Source: www.kingbright.com</description>
 </library>
 <library name="comp_RFSwitch_v3">
 <packages>
-<package name="SO8">
+<package name="SO8_NO_PIN3">
 <wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
 <wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
 <wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
@@ -13354,7 +13354,6 @@ Source: www.kingbright.com</description>
 <smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
 <smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
 <smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
 <smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
 <smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
 <smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
@@ -13363,7 +13362,6 @@ Source: www.kingbright.com</description>
 <text x="3.937" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 <rectangle x1="-2.1501" y1="-3.1001" x2="-1.6599" y2="-2" layer="51"/>
 <rectangle x1="-0.8801" y1="-3.1001" x2="-0.3899" y2="-2" layer="51"/>
-<rectangle x1="0.3899" y1="-3.1001" x2="0.8801" y2="-2" layer="51"/>
 <rectangle x1="1.6599" y1="-3.1001" x2="2.1501" y2="-2" layer="51"/>
 <rectangle x1="1.6599" y1="2" x2="2.1501" y2="3.1001" layer="51"/>
 <rectangle x1="0.3899" y1="2" x2="0.8801" y2="3.1001" layer="51"/>
@@ -13426,12 +13424,12 @@ Source: www.kingbright.com</description>
 <text x="-10.16" y="11.43" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="D" x="-12.7" y="-7.62" length="short" direction="pwr"/>
-<pin name="S1" x="12.7" y="7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="S@1" x="12.7" y="7.62" length="short" direction="pwr" rot="R180"/>
 <pin name="FB" x="-12.7" y="2.54" length="short" direction="in"/>
-<pin name="S3" x="12.7" y="-2.54" length="short" direction="pwr" rot="R180"/>
-<pin name="S2" x="12.7" y="2.54" length="short" direction="pwr" rot="R180"/>
+<pin name="S@3" x="12.7" y="-2.54" length="short" direction="pwr" rot="R180"/>
+<pin name="S@2" x="12.7" y="2.54" length="short" direction="pwr" rot="R180"/>
 <pin name="BP" x="-12.7" y="7.62" length="short" direction="pwr"/>
-<pin name="S4" x="12.7" y="-7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="S@4" x="12.7" y="-7.62" length="short" direction="pwr" rot="R180"/>
 </symbol>
 <symbol name="DIODE">
 <wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
@@ -13480,15 +13478,15 @@ Source: www.kingbright.com</description>
 <gate name="G$1" symbol="LNK304" x="0" y="-2.54"/>
 </gates>
 <devices>
-<device name="" package="SO8">
+<device name="" package="SO8_NO_PIN3">
 <connects>
 <connect gate="G$1" pin="BP" pad="1"/>
 <connect gate="G$1" pin="D" pad="4"/>
 <connect gate="G$1" pin="FB" pad="2"/>
-<connect gate="G$1" pin="S1" pad="8"/>
-<connect gate="G$1" pin="S2" pad="7"/>
-<connect gate="G$1" pin="S3" pad="6"/>
-<connect gate="G$1" pin="S4" pad="5"/>
+<connect gate="G$1" pin="S@1" pad="8"/>
+<connect gate="G$1" pin="S@2" pad="7"/>
+<connect gate="G$1" pin="S@3" pad="6"/>
+<connect gate="G$1" pin="S@4" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14335,15 +14333,15 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="76.2" y1="60.96" x2="86.36" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="S1"/>
+<pinref part="IC1" gate="G$1" pin="S@1"/>
 <wire x1="86.36" y1="60.96" x2="86.36" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="S2"/>
+<pinref part="IC1" gate="G$1" pin="S@2"/>
 <wire x1="86.36" y1="53.34" x2="86.36" y2="48.26" width="0.1524" layer="91"/>
 <junction x="86.36" y="53.34"/>
-<pinref part="IC1" gate="G$1" pin="S3"/>
+<pinref part="IC1" gate="G$1" pin="S@3"/>
 <wire x1="86.36" y1="48.26" x2="86.36" y2="43.18" width="0.1524" layer="91"/>
 <junction x="86.36" y="48.26"/>
-<pinref part="IC1" gate="G$1" pin="S4"/>
+<pinref part="IC1" gate="G$1" pin="S@4"/>
 <wire x1="86.36" y1="43.18" x2="86.36" y2="38.1" width="0.1524" layer="91"/>
 <junction x="86.36" y="43.18"/>
 <wire x1="86.36" y1="53.34" x2="91.44" y2="53.34" width="0.1524" layer="91"/>
