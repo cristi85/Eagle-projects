@@ -675,9 +675,9 @@ Farnell ref: 1885903</description>
 <text x="1.27" y="-6.75" size="0.8128" layer="21" font="vector" ratio="20">MOSI</text>
 </package>
 <package name="CR2032_HOLDER_BC-2003">
-<smd name="P$POS1" x="-12.5" y="0" dx="4" dy="7" layer="1"/>
-<smd name="P$POS2" x="12.5" y="0" dx="4" dy="7" layer="1"/>
-<smd name="P$NEG" x="0" y="0" dx="16.5" dy="16.5" layer="1" roundness="100"/>
+<smd name="POS1" x="-12.5" y="0" dx="4" dy="7" layer="1"/>
+<smd name="POS2" x="12.5" y="0" dx="4" dy="7" layer="1"/>
+<smd name="NEG" x="0" y="0" dx="16.5" dy="16.5" layer="1" roundness="100"/>
 <circle x="0" y="0" radius="10" width="0.127" layer="21"/>
 </package>
 </packages>
@@ -1316,15 +1316,15 @@ SCHURTER 0751.0052</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CR2032_HOLDER_BC-2003">
+<deviceset name="CR2032_HOLDER_BC-2003" prefix="B" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="3V_2TERMINALS" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="CR2032_HOLDER_BC-2003">
 <connects>
-<connect gate="G$1" pin="+" pad="P$POS1 P$POS2"/>
-<connect gate="G$1" pin="-" pad="P$NEG"/>
+<connect gate="G$1" pin="+" pad="POS1 POS2"/>
+<connect gate="G$1" pin="-" pad="NEG"/>
 </connects>
 <technologies>
 <technology name=""/>

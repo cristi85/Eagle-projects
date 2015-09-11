@@ -7,12 +7,15 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
+UsedLibrary="C:/Program Files/EAGLE-7.3.0/lbr/pinhead.lbr"
+UsedLibrary="D:/_WORK/GitHub/Eagle projects/Remote Switch v3/ReceiverController/comp_RFSwitch_v3.lbr"
 UsedLibrary="D:/_WORK/eagle/Remote Switch v2/comp_RFSwitch_v2.lbr"
+UsedLibrary="D:/_WORK/GitHub/Eagle projects/Remote Switch v2/comp_RFSwitch_v2.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="366 65 1186 728"
-State=2
+Loc="0 0 1679 987"
+State=1
 Number=0
 
 [Desktop]
