@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -555,10 +555,10 @@ Farnell ref: 1885903</description>
 </package>
 <package name="TSSOP20">
 <circle x="-3.156" y="-1.378" radius="0.2231" width="0.2032" layer="21"/>
-<wire x1="-3.9" y1="2.2" x2="2.63" y2="2.2" width="0.2032" layer="51"/>
-<wire x1="2.63" y1="2.2" x2="2.63" y2="-2.2" width="0.2032" layer="51"/>
-<wire x1="2.63" y1="-2.2" x2="-3.9" y2="-2.2" width="0.2032" layer="51"/>
-<wire x1="-3.9" y1="-2.2" x2="-3.9" y2="2.2" width="0.2032" layer="51"/>
+<wire x1="-3.9" y1="2.2" x2="2.63" y2="2.2" width="0.2032" layer="21"/>
+<wire x1="2.63" y1="2.2" x2="2.63" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="2.63" y1="-2.2" x2="-3.9" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="-3.9" y1="-2.2" x2="-3.9" y2="2.2" width="0.2032" layer="21"/>
 <wire x1="-3.9" y1="-2" x2="-3.9" y2="2" width="0.2032" layer="21"/>
 <wire x1="2.63" y1="2" x2="2.63" y2="-2" width="0.2032" layer="21"/>
 <rectangle x1="0.2" y1="-3.2" x2="0.45" y2="-2.2" layer="51"/>
@@ -830,17 +830,17 @@ Farnell ref: 1885903</description>
 <pad name="4" x="23.92" y="-1.1" drill="0.8" rot="R90"/>
 <pad name="5" x="26.46" y="-1.1" drill="0.8" rot="R90"/>
 <pad name="6" x="29" y="-1.1" drill="0.8" rot="R90"/>
-<wire x1="-1.5" y1="0.6" x2="-1.5" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="30.5" y1="0.6" x2="30.5" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="0.6" x2="-1.5" y2="-1.1" width="0.127" layer="22"/>
+<wire x1="30.5" y1="0.6" x2="30.5" y2="-1.1" width="0.127" layer="22"/>
 </package>
 <package name="SO8_NO_PIN3">
-<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="21"/>
 <smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
 <smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
 <smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
@@ -866,9 +866,9 @@ Farnell ref: 1885903</description>
 <pad name="GND" x="-2.54" y="1" drill="0.8"/>
 <pad name="DATA" x="0" y="1" drill="0.8"/>
 <pad name="VCC" x="2.54" y="1" drill="0.8"/>
-<text x="-1.9" y="2" size="1.27" layer="21" rot="R90">GND</text>
-<text x="0.6" y="2" size="1.27" layer="21" rot="R90">DATA</text>
-<text x="3.15" y="2" size="1.27" layer="21" rot="R90">VCC</text>
+<text x="-2.2" y="2" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">GND</text>
+<text x="0.4" y="2" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">DATA</text>
+<text x="2.95" y="2" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">VCC</text>
 </package>
 </packages>
 <symbols>

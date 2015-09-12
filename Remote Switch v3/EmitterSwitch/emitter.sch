@@ -7310,9 +7310,9 @@ Source: www.kingbright.com</description>
 <pad name="GND" x="-2.54" y="1" drill="0.8"/>
 <pad name="DATA" x="0" y="1" drill="0.8"/>
 <pad name="VCC" x="2.54" y="1" drill="0.8"/>
-<text x="-1.9" y="2" size="1.27" layer="21" rot="R90">GND</text>
-<text x="0.6" y="2" size="1.27" layer="21" rot="R90">DATA</text>
-<text x="3.15" y="2" size="1.27" layer="21" rot="R90">VCC</text>
+<text x="-2.2" y="2" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">GND</text>
+<text x="0.4" y="2" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">DATA</text>
+<text x="2.95" y="2" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">VCC</text>
 </package>
 </packages>
 <symbols>
@@ -7695,9 +7695,9 @@ Source: www.kingbright.com</description>
 <junction x="160.02" y="124.46"/>
 </segment>
 <segment>
-<wire x1="86.36" y1="91.44" x2="76.2" y2="91.44" width="0.1524" layer="91"/>
-<label x="76.2" y="91.44" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="PC4"/>
+<pinref part="IC1" gate="G$1" pin="PC2"/>
+<wire x1="134.62" y1="109.22" x2="142.24" y2="109.22" width="0.1524" layer="91"/>
+<label x="137.16" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BTN2" class="0">
@@ -7713,9 +7713,9 @@ Source: www.kingbright.com</description>
 <junction x="182.88" y="124.46"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PB0"/>
-<wire x1="86.36" y1="86.36" x2="76.2" y2="86.36" width="0.1524" layer="91"/>
-<label x="76.2" y="86.36" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="PC1"/>
+<wire x1="134.62" y1="106.68" x2="142.24" y2="106.68" width="0.1524" layer="91"/>
+<label x="137.16" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SWIM" class="0">
@@ -7750,9 +7750,9 @@ Source: www.kingbright.com</description>
 <label x="63.5" y="81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PC3"/>
-<wire x1="86.36" y1="93.98" x2="68.58" y2="93.98" width="0.1524" layer="91"/>
-<label x="68.58" y="93.98" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="PA2"/>
+<wire x1="86.36" y1="101.6" x2="68.58" y2="101.6" width="0.1524" layer="91"/>
+<label x="68.58" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED_ERR_TX1" class="0">
@@ -7763,9 +7763,9 @@ Source: www.kingbright.com</description>
 <label x="63.5" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PD0"/>
-<wire x1="86.36" y1="88.9" x2="68.58" y2="88.9" width="0.1524" layer="91"/>
-<label x="68.58" y="88.9" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="PA3"/>
+<wire x1="86.36" y1="99.06" x2="68.58" y2="99.06" width="0.1524" layer="91"/>
+<label x="68.58" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RFM85_ON" class="0">
@@ -7775,9 +7775,9 @@ Source: www.kingbright.com</description>
 <label x="195.58" y="111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PB1"/>
-<wire x1="134.62" y1="86.36" x2="152.4" y2="86.36" width="0.1524" layer="91"/>
-<label x="137.16" y="86.36" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="PC3"/>
+<wire x1="86.36" y1="93.98" x2="71.12" y2="93.98" width="0.1524" layer="91"/>
+<label x="71.12" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RFM85_DATA" class="0">
