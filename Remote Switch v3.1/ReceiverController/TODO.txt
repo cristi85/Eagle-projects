@@ -1,0 +1,15 @@
+update connector dimensions
+correct connection of ultrafast diode							ok
+create button center hole for easier case button hole drill		ok
+create led center hole for easier case led hole drill			ok
+correct RFM83CL rf data out connection to MCU					ok
+correct button connection to MCU								
+replace tht resistor fuse with two smd resistors				
+create fuse for power section									
+400v capacitor is too high, replace with smaller one 			
+create bigger footprints for 0805 capacitors					
+create bigger footprints for smd electrolitic capacitors		
+board mount is too tight in case, relax board dimensions		ok
+correct board fixing holes coordinates							ok
+create bigger pads for radio									ok
+remove soldermask from triac heatsink							

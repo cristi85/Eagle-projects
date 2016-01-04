@@ -1,0 +1,10 @@
+BUTON
+------------------
+CURSA BUTON: 1.2mm
+CAND E SUS (NEAPASAT) E LA 0.1mm de planul superior al carcasei
+CAND e JOS (APASAT) e la 0.1-0.2mm de planul inferior al capacului (contur)
+CAND SE NCHIDE CAPACUL, partea superioara coboara cu 3.7mm-0.5mm (=3.2mm)
+De la baza pe care se aseaza PCB si pana la conturul de sus al partii inferioare a cutiei sunt 8mm
+Distanta de la baza PCB pana la butonul apasat complet: 8mm-3.2mm+0.1mm(sau0.2mm) = 4.9-5mm
+Distanta de la baza PCB pana la butonul ridicat complet: 4.9-5mm + 1.2mm = 6.1-6.2mm
+Inaltime buton: 6mm-1.6mm(grosime PCB)=4.4mm
