@@ -7,7 +7,6 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
-UsedLibrary="C:/Program Files/EAGLE-7.3.0/lbr/triac.lbr"
 UsedLibrary="comp_RFSwitch_v3.lbr"
 
 [Win_1]
@@ -17,5 +16,5 @@ State=1
 Number=0
 
 [Desktop]
-Screen="1366 768"
+Screen="1680 1050"
 Window="Win_1"

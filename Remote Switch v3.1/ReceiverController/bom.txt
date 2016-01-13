@@ -1,0 +1,42 @@
+Partlist exported from D:/_WORK/GitHub/Eagle projects/Remote Switch v3.1/ReceiverController/receiver.sch at 1/13/2016 3:38 PM
+
+Part Value                 Device                        Package                 Description                                      MF                      MPN       OC_FARNELL OC_NEWARK
+B1   B05S                  B05S                          MBS                     Surface Mount Glass Passivated Bridge Rectifiers                                                       
+C1   10u                   C-EUC0805K                    C0805K                  CAPACITOR, European symbol                                                                             
+C2   100n                  C-EUC0603K                    C0603K                  CAPACITOR, European symbol                                                                             
+C3   4.7u                  C-POL-EUE5-10,5               E5-10,5                                                                                                                        
+C4   100n                  C-EUC0603K                    C0603K                  CAPACITOR, European symbol                                                                             
+C5   10u                   C_POL_PANASONIC_C_LARGER_PADS PANASONIC_C_LARGER_PADS                                                                                                        
+C6   100u                  C-POL_PANASONC_D_LARGER_PADS  PANASONIC_D_LARGER_PADS                                                                                                        
+C7   100n                  C-EUC0603K                    C0603K                  CAPACITOR, European symbol                                                                             
+C8   10u                   C-EUC1206                     C1206                   CAPACITOR, European symbol                                                                             
+C9   100n                  C-EUC0603K                    C0603K                  CAPACITOR, European symbol                                                                             
+C10  100n                  C-EUC0603K                    C0603K                  CAPACITOR, European symbol                                                                             
+C11  2.2u                  C-EUC0805K                    C0805K                  CAPACITOR, European symbol                                                                             
+C12  10u                   C-EUC1206                     C1206                   CAPACITOR, European symbol                                                                             
+C13  100n                  C-EUC0603K                    C0603K                  CAPACITOR, European symbol                                                                             
+D1   US1G-DIO              US1G-DIO                      DO214-AC                                                                                                                       
+D2   S1G-DIO               S1G-DIO                       DO214-AC                                                                                                                       
+IC1  LNK304                LNK304                        SO8_NO_PIN3                                                                                                                    
+IC2  MCP1703CB             MCP1703CB                     SOT23                   250 mA, 16V, Low Quiescent Current LDO Regulator                                                       
+IC3  STM8L101F2            STM8L101F2                    TSSOP20                                                                                                                        
+J1   POWER_CONN_4          POWER_CONN_4                  TERMINAL_BLOCK_4                                                                                                               
+JP1                        CON_1X4PIN_2.54MM_SMD         CON_1X4_2.54_SMD                                                                                                               
+L1   FERROCORE_DE0703-1000 FERROCORE_DE0703-1000         DE0703                                                                                                                         
+LED1                       LED3MM                        LED3MM                  LED                                                                                                    
+OK1  MOC3063M              MOC3023M                      DIL06                   RANDOM-PHASE OPTOISOLATORS TRIAC DRIVER OUTPUT   FAIRCHILD SEMICONDUCTOR MOC3023-M 1021367    72K8896  
+R1   4R7                   R_R2512_LARGER_PADS           R2512_LARGER_PADS                                                                                                              
+R2   4R7                   R_R2512_LARGER_PADS           R2512_LARGER_PADS                                                                                                              
+R3   220                   R-EU_R0603                    R0603                   RESISTOR, European symbol                                                                              
+R4   220                   R-EU_R0603                    R0603                   RESISTOR, European symbol                                                                              
+R5   360                   R-EU_R0603                    R0603                   RESISTOR, European symbol                                                                              
+R6   1k                    R-EU_R0603                    R0603                   RESISTOR, European symbol                                                                              
+R7   360                   R-EU_R0603                    R0603                   RESISTOR, European symbol                                                                              
+R8   13k                   R-EU_R0603                    R0603                   RESISTOR, European symbol                                                                              
+R9   10k                   R-EU_R0603                    R0603                   RESISTOR, European symbol                                                                              
+R10  10k                   R-EU_R0603                    R0603                   RESISTOR, European symbol                                                                              
+R11  47                    R-EU_R0603                    R0603                   RESISTOR, European symbol                                                                              
+R12  10k                   R-EU_R0603                    R0603                   RESISTOR, European symbol                                                                              
+RF1  RFM83/83CL            RFM83/83CL                    RFM83C/83CL_CONN                                                                                                               
+S1   B3F-1050              DTS-6                         DTS-6                                                                                                                          
+T1   BT136                 BT136                         TO220AB                 Triac BT136 series E sensitive gate                                                                    
