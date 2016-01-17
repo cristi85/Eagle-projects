@@ -14,3 +14,6 @@ create bigger pads for radio                                    ok
 remove soldermask from triac heatsink                           ok
 move L N N LOAD markings to bottom layer                        ok
 move LED1 to bottom layer                                       ok
+move triac from connector to be able to install heatsink        not enough space
+create hole on pcb for RF rx antenna wire                       ok
+modify RF rx footprint, remove half vias                        ok

@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,16 +39,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -7707,13 +7707,15 @@ Source: www.kingbright.com</description>
 <pad name="6_1" x="29" y="0" drill="1" rot="R90"/>
 <text x="-0.2762" y="4.1588" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-0.7" y="1.915" size="1.27" layer="27">&gt;VALUE</text>
-<pad name="2" x="2.54" y="-1.3" drill="1" rot="R90"/>
-<pad name="3" x="21.38" y="-1.3" drill="1" rot="R90"/>
-<pad name="4" x="23.92" y="-1.3" drill="1" rot="R90"/>
-<pad name="5" x="26.46" y="-1.3" drill="1" rot="R90"/>
-<pad name="6" x="29" y="-1.3" drill="1" rot="R90"/>
 <wire x1="-1.5" y1="0.6" x2="-1.5" y2="-1.3" width="0.127" layer="22"/>
 <wire x1="30.5" y1="0.6" x2="30.5" y2="-1.3" width="0.127" layer="22"/>
+<smd name="P$1" x="2.54" y="-1" dx="1.505" dy="0.6" layer="16"/>
+<smd name="P$2" x="21.38" y="-1" dx="1.505" dy="0.6" layer="16"/>
+<smd name="P$3" x="23.92" y="-0.65" dx="1.505" dy="1.3" layer="16"/>
+<smd name="P$4" x="26.46" y="-0.65" dx="1.505" dy="1.3" layer="16"/>
+<smd name="P$5" x="29" y="-0.65" dx="1.505" dy="1.3" layer="16"/>
+<wire x1="-1.5" y1="0" x2="30.5" y2="0" width="0.127" layer="21"/>
+<rectangle x1="-0.75" y1="-1.3" x2="0.75" y2="0" layer="21"/>
 </package>
 <package name="TSSOP20">
 <circle x="-3.156" y="-1.378" radius="0.2231" width="0.2032" layer="21"/>
@@ -8656,7 +8658,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="R7" library="resistor" deviceset="R-EU_" device="R0603" value="13k"/>
 <part name="R5" library="resistor" deviceset="R-EU_" device="R0603" value="1k"/>
 <part name="T1" library="triac" deviceset="BT136" device=""/>
-<part name="OK1" library="optocoupler" deviceset="MOC30*M" device="" technology="23" value="MOC3063M"/>
+<part name="OC1" library="optocoupler" deviceset="MOC30*M" device="" technology="23" value="MOC3063M"/>
 <part name="R6" library="resistor" deviceset="R-EU_" device="R0603" value="360"/>
 <part name="R4" library="resistor" deviceset="R-EU_" device="R0603" value="360"/>
 <part name="R3" library="resistor" deviceset="R-EU_" device="R0603" value="220"/>
@@ -8667,7 +8669,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="C8" library="resistor" deviceset="C-EU" device="C1206" value="10u"/>
 <part name="GND15" library="supply" deviceset="GND" device=""/>
 <part name="GND11" library="supply" deviceset="GND" device=""/>
-<part name="RF1" library="comp_RFSwitch_v3" deviceset="RFM83/83CL" device=""/>
+<part name="RF_RX" library="comp_RFSwitch_v3" deviceset="RFM83/83CL" device=""/>
 <part name="C2" library="resistor" deviceset="C-EU" device="C0603K" value="100n"/>
 <part name="GND3" library="supply" deviceset="GND" device=""/>
 <part name="GND4" library="supply" deviceset="GND" device=""/>
@@ -8679,7 +8681,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="R10" library="resistor" deviceset="R-EU_" device="R0603" value="47"/>
 <part name="C10" library="resistor" deviceset="C-EU" device="C0603K" value="100n"/>
 <part name="GND13" library="supply" deviceset="GND" device=""/>
-<part name="JP1" library="comp_RFSwitch_v3" deviceset="CON_1X4PIN_" device="2.54MM_SMD"/>
+<part name="PROG" library="comp_RFSwitch_v3" deviceset="CON_1X4PIN_" device="2.54MM_SMD"/>
 <part name="GND8" library="supply" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -8728,7 +8730,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <instance part="R7" gate="G$1" x="99.06" y="68.58"/>
 <instance part="R5" gate="G$1" x="91.44" y="63.5" rot="R90"/>
 <instance part="T1" gate="-1" x="99.06" y="127"/>
-<instance part="OK1" gate="-1" x="78.74" y="129.54"/>
+<instance part="OC1" gate="-1" x="78.74" y="129.54"/>
 <instance part="R6" gate="G$1" x="93.98" y="134.62"/>
 <instance part="R4" gate="G$1" x="88.9" y="119.38" rot="R90"/>
 <instance part="R3" gate="G$1" x="63.5" y="134.62"/>
@@ -8739,7 +8741,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <instance part="C8" gate="G$1" x="149.86" y="50.8"/>
 <instance part="GND15" gate="1" x="175.26" y="43.18"/>
 <instance part="GND11" gate="1" x="149.86" y="43.18"/>
-<instance part="RF1" gate="G$1" x="45.72" y="93.98"/>
+<instance part="RF_RX" gate="G$1" x="45.72" y="93.98"/>
 <instance part="C2" gate="G$1" x="25.4" y="91.44"/>
 <instance part="GND3" gate="1" x="43.18" y="78.74"/>
 <instance part="GND4" gate="1" x="50.8" y="78.74"/>
@@ -8751,7 +8753,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <instance part="R10" gate="G$1" x="220.98" y="106.68"/>
 <instance part="C10" gate="G$1" x="157.48" y="50.8"/>
 <instance part="GND13" gate="1" x="157.48" y="43.18"/>
-<instance part="JP1" gate="G$1" x="210.82" y="154.94"/>
+<instance part="PROG" gate="G$1" x="210.82" y="154.94"/>
 <instance part="GND8" gate="1" x="106.68" y="40.64"/>
 </instances>
 <busses>
@@ -8767,7 +8769,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <label x="157.48" y="124.46" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="4"/>
+<pinref part="PROG" gate="G$1" pin="4"/>
 <wire x1="208.28" y1="154.94" x2="195.58" y2="154.94" width="0.1524" layer="91"/>
 <label x="195.58" y="154.94" size="1.778" layer="95"/>
 </segment>
@@ -8805,7 +8807,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <junction x="55.88" y="30.48"/>
 </segment>
 <segment>
-<pinref part="OK1" gate="-1" pin="C"/>
+<pinref part="OC1" gate="-1" pin="C"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="66.04" y1="124.46" x2="68.58" y2="124.46" width="0.1524" layer="91"/>
 </segment>
@@ -8822,11 +8824,11 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <pinref part="GND11" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="RF1" gate="G$1" pin="GND"/>
+<pinref part="RF_RX" gate="G$1" pin="GND"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="RF1" gate="G$1" pin="GNDA"/>
+<pinref part="RF_RX" gate="G$1" pin="GNDA"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -8834,7 +8836,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="RF1" gate="G$1" pin="SHUT"/>
+<pinref part="RF_RX" gate="G$1" pin="SHUT"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -8856,7 +8858,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <pinref part="GND13" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="3"/>
+<pinref part="PROG" gate="G$1" pin="3"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -8892,7 +8894,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <label x="157.48" y="129.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="2"/>
+<pinref part="PROG" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="160.02" x2="195.58" y2="160.02" width="0.1524" layer="91"/>
 <label x="195.58" y="160.02" size="1.778" layer="95"/>
 </segment>
@@ -8928,7 +8930,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <junction x="187.96" y="53.34"/>
 </segment>
 <segment>
-<pinref part="RF1" gate="G$1" pin="VCC"/>
+<pinref part="RF_RX" gate="G$1" pin="VCC"/>
 <wire x1="27.94" y1="93.98" x2="25.4" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="+3V31" gate="G$1" pin="+3V3"/>
@@ -8938,7 +8940,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 </segment>
 <segment>
 <pinref part="+3V35" gate="G$1" pin="+3V3"/>
-<pinref part="JP1" gate="G$1" pin="1"/>
+<pinref part="PROG" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="170.18" x2="208.28" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9083,7 +9085,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="OK1" gate="-1" pin="A2"/>
+<pinref part="OC1" gate="-1" pin="A2"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -9091,7 +9093,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <segment>
 <pinref part="T1" gate="-1" pin="G"/>
 <wire x1="93.98" y1="127" x2="88.9" y2="127" width="0.1524" layer="91"/>
-<pinref part="OK1" gate="-1" pin="A1"/>
+<pinref part="OC1" gate="-1" pin="A1"/>
 <wire x1="88.9" y1="127" x2="88.9" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <junction x="88.9" y="124.46"/>
@@ -9099,7 +9101,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="OK1" gate="-1" pin="A"/>
+<pinref part="OC1" gate="-1" pin="A"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -9144,7 +9146,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 </net>
 <net name="RF_DATA" class="0">
 <segment>
-<pinref part="RF1" gate="G$1" pin="DATA"/>
+<pinref part="RF_RX" gate="G$1" pin="DATA"/>
 <wire x1="66.04" y1="93.98" x2="76.2" y2="93.98" width="0.1524" layer="91"/>
 <label x="66.04" y="93.98" size="1.778" layer="95"/>
 </segment>
