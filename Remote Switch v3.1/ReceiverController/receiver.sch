@@ -7795,13 +7795,6 @@ Source: www.kingbright.com</description>
 <smd name="3" x="1.27" y="2.25" dx="1.4" dy="5" layer="1"/>
 <smd name="4" x="3.81" y="2.25" dx="1.4" dy="5" layer="1"/>
 </package>
-<package name="RLB0914">
-<circle x="0" y="0" radius="4.5" width="0.2032" layer="21"/>
-<pad name="1" x="-2.5" y="0" drill="0.7" rot="R90"/>
-<pad name="2" x="2.5" y="0" drill="0.7" rot="R90"/>
-<text x="-3.766" y="1.492" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.25" y="-3" size="1.27" layer="27">&gt;VALUE</text>
-</package>
 <package name="DE0703">
 <text x="-3.75" y="4.025" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.75" y="-5.3375" size="1.27" layer="27">&gt;VALUE</text>
@@ -8168,22 +8161,6 @@ Source: www.kingbright.com</description>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="RLB0914" prefix="L" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="RLB0914">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8635,7 +8612,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="GND6" library="supply" deviceset="GND" device=""/>
 <part name="D1" library="comp_RFSwitch_v3" deviceset="S1G-DIO" device="" value="S1G-DIO"/>
 <part name="GND3" library="supply" deviceset="GND" device=""/>
-<part name="L2" library="comp_RFSwitch_v3" deviceset="RLB0914" device="" value="1mH"/>
+<part name="L2" library="comp_RFSwitch_v3" deviceset="FERROCORE_DE0703-1000" device="" value="1mH"/>
 <part name="L1" library="comp_RFSwitch_v3" deviceset="FERROCORE_DE0703-1000" device=""/>
 </parts>
 <sheets>
