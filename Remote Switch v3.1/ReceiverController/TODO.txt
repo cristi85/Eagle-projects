@@ -17,3 +17,4 @@ move LED1 to bottom layer                                       ok
 move triac from connector to be able to install heatsink        not enough space
 create hole on pcb for RF rx antenna wire                       ok
 modify RF rx footprint, remove half vias                        ok
+add PI filter at mains input                                    ok             
