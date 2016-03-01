@@ -1,0 +1,48 @@
+Partlist exported from D:/_WORK/GitHub/Eagle projects/Wireless_Node/wirelessnode.sch at 3/1/2016 1:23 PM
+
+Part Value        Device                 Package                 Description                                      TME_ORDER_NUMBER            
+C1   2.2u/400V    C-POL-EUCAP_8X11.5_AIR CAP_8X11.5_AIR                                                           RD2G225M0811MBB             
+C2   100n         C-EUC0603K             C0603K                  CAPACITOR, European symbol                                                   
+C3   100n         C-EUC0603K             C0603K                  CAPACITOR, European symbol                                                   
+C4   4.7u/400V    C-POL-EUE5-10,5        E5-10,5                                                                  RD2G475M1012MBB             
+C5   100n         C-EUC0603K             C0603K                  CAPACITOR, European symbol                                                   
+C6   4.7u/50V     C-POL-EU               PANASONIC_C_LARGER_PADS                                                  RC1H475M05005VR             
+C7   100n         C-EUC0603K             C0603K                  CAPACITOR, European symbol                                                   
+C8   100n         C-EUC0603K             C0603K                  CAPACITOR, European symbol                                                   
+C9   100u/35V     C-POL-EUPANASONIC_D    PANASONIC_D_LARGER_PADS                                                  UCD1V101MCL6GS              
+C10  2.2u         C-EUC1206              C1206                   CAPACITOR, European symbol                                                   
+C11  10u/25V      C-EUC1206              C1206                   CAPACITOR, European symbol                       08053D106KAT2A              
+C12  100n/50V     C-EUC0603K             C0603K                  CAPACITOR, European symbol                       C0603C104K5RAC              
+C13  10u/6.3V     C-EUC0603K             C0603K                  CAPACITOR, European symbol                       CL10A106KQ8NNNC             
+C14  100n         C-EUC0603K             C0603K                  CAPACITOR, European symbol                                                   
+CON1              POWER_CONN_4           TERMINAL_BLOCK_4                                                         EBBA-02-C-SS-BU             
+CON2 ZL321-4P     CON_1X4PIN_1.27MM_SMD  CON_1X4_1.27_SMD                                                         ZL321-4P (DS1065-01-1X4S8BV)
+D1   1A/400V      SL1G                   SOD-123F                                                                 SL1G-DIO                    
+D2   1A/400V      US1G-DIO               DO214-AC                                                                 US1G-DIO                    
+D3   1A/400V      SL1G                   SOD-123F                                                                 SL1G-DIO                    
+IC1  LNK304       LNK304                 SO8_NO_PIN3                                                              LNK304DN                    
+IC2  STM8L101F2   STM8L101F2             TSSOP20                                                                  STM8L101F2P6                
+IC3  MCP1703      MCP1703CB              SOT23                   250 mA, 16V, Low Quiescent Current LDO Regulator MCP1703T3302ECB             
+L1   1mH          FERROCORE_DE0703-1000  DE0703                  FERROCORE SMD Power Coil                         DE0703-1000                 
+L2   1mH          FERROCORE_DE0703-1000  DE0703                  FERROCORE SMD Power Coil                         DE0703-1000                 
+LED1 RED/GREEN    LED3MM                 LED3MM                  LED                                              L-937EGW                    
+R1   10           R_CF1WS                CF1WS                                                                    CF1WS-10R                   
+R2   220          R-EU_R0603             R0603                   RESISTOR, European symbol                                                    
+R3   tbc          R-EU_R0603             R0603                   RESISTOR, European symbol                                                    
+R4   360          R-EU_R0603             R0603                   RESISTOR, European symbol                                                    
+R5   360          R-EU_R0603             R0603                   RESISTOR, European symbol                                                    
+R6   2k           R-EU_R0603             R0603                   RESISTOR, European symbol                                                    
+R7   tbc          R-EU_R0603             R0603                   RESISTOR, European symbol                                                    
+R8   10k          R-EU_R0603             R0603                   RESISTOR, European symbol                                                    
+R9   3.9k         R-EU_R0603             R0603                   RESISTOR, European symbol                                                    
+R10  47           R-EU_R0603             R0603                   RESISTOR, European symbol                                                    
+R11  47           R-EU_R0603             R0603                   RESISTOR, European symbol                                                    
+R12  47           R-EU_R0603             R0603                   RESISTOR, European symbol                                                    
+R13  47           R-EU_R0603             R0603                   RESISTOR, European symbol                                                    
+R14  47           R-EU_R0603             R0603                   RESISTOR, European symbol                                                    
+R15  47           R-EU_R0603             R0603                   RESISTOR, European symbol                                                    
+R16  10k          R-EU_R0603             R0603                   RESISTOR, European symbol                                                    
+RF1  RFM69HW-V1.3 RFM69HW-V1.3           RFM69HW-V1.3-SMD                                                         RFM69HW-868S2               
+S1   SPST-NO      DTSM-63X-V             DTSM-63X-V-7MM_HEIGHT                                                    DTSM-63N-V-B                
+T1   S2S4BY0F     S2S4BY0F               S2S4BY0F                                                                 S2S4BY0F                    
+T2   BTA16        BT136                  TO220                                                                    BTA16-600BRG                
