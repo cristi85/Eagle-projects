@@ -7881,17 +7881,6 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <wire x1="3.1" y1="-3.1" x2="3.1" y2="3.1" width="0.1" layer="21"/>
 <wire x1="-3.1" y1="-3.1" x2="-3.1" y2="3.1" width="0.1" layer="21"/>
 </package>
-<package name="S2S4BY0F">
-<smd name="2" x="-3.15" y="-1.27" dx="1.5" dy="0.8" layer="1"/>
-<smd name="1" x="-3.15" y="1.27" dx="1.5" dy="0.8" layer="1"/>
-<smd name="4" x="3.15" y="1.27" dx="1.5" dy="0.8" layer="1"/>
-<smd name="3" x="3.15" y="-1.27" dx="1.5" dy="0.8" layer="1"/>
-<wire x1="-2.2" y1="1.8" x2="-2.2" y2="-1.8" width="0.127" layer="21"/>
-<wire x1="2.2" y1="1.8" x2="2.2" y2="-1.8" width="0.127" layer="21"/>
-<wire x1="-2.2" y1="1.8" x2="2.2" y2="1.8" width="0.127" layer="21"/>
-<wire x1="-2.2" y1="-1.8" x2="2.2" y2="-1.8" width="0.127" layer="21"/>
-<text x="-2.3" y="2" size="0.8128" layer="21" font="vector" ratio="15">&gt;NAME</text>
-</package>
 <package name="CON_1X4_1.27_SMD">
 <smd name="1" x="-1.27" y="1.6" dx="0.76" dy="3" layer="1"/>
 <smd name="2" x="0" y="-1.5" dx="0.76" dy="3" layer="1"/>
@@ -8276,75 +8265,6 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <pin name="S1" x="2.54" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="P1" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="2" rot="R90"/>
 </symbol>
-<symbol name="OPTOTRIAC">
-<wire x1="5.08" y1="2.54" x2="5.08" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="1.905" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="1.905" y1="5.08" x2="1.905" y2="-1.27" width="0.1524" layer="94"/>
-<wire x1="3.175" y1="0" x2="2.54" y2="-1.27" width="0.1524" layer="94"/>
-<wire x1="3.175" y1="-1.27" x2="3.175" y2="-3.175" width="0.254" layer="94"/>
-<wire x1="3.175" y1="-5.08" x2="-0.635" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-0.635" y1="-5.08" x2="-0.635" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-0.635" y1="-1.27" x2="1.905" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="3.175" y1="-3.175" x2="5.08" y2="-3.175" width="0.1524" layer="94"/>
-<wire x1="3.175" y1="-3.175" x2="3.175" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="0.889" y1="-4.064" x2="1.27" y2="-4.064" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-4.064" x2="1.27" y2="-2.413" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-4.064" x2="1.651" y2="-4.064" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-2.413" x2="0.889" y2="-2.794" width="0.254" layer="94"/>
-<wire x1="0.381" y1="-4.445" x2="2.159" y2="-4.445" width="0.1524" layer="94"/>
-<wire x1="2.159" y1="-4.445" x2="2.159" y2="-2.032" width="0.1524" layer="94"/>
-<wire x1="2.159" y1="-2.032" x2="0.381" y2="-2.032" width="0.1524" layer="94"/>
-<wire x1="0.381" y1="-2.032" x2="0.381" y2="-4.445" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-1.27" x2="3.175" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="0.127" x2="0.889" y2="1.524" width="0.1524" layer="94"/>
-<wire x1="0.889" y1="1.524" x2="0" y2="1.143" width="0.1524" layer="94"/>
-<wire x1="0" y1="1.143" x2="0.508" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="0.635" x2="0.889" y2="1.524" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="2.667" x2="-0.127" y2="2.286" width="0.1524" layer="94"/>
-<wire x1="-0.127" y1="2.286" x2="0.381" y2="1.778" width="0.1524" layer="94"/>
-<wire x1="0.381" y1="1.778" x2="0.762" y2="2.667" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="1.27" x2="0.762" y2="2.667" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-3.81" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-3.81" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-3.81" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="3.81" y2="0" width="0.254" layer="94"/>
-<wire x1="3.81" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="3.81" y2="0" width="0.254" layer="94"/>
-<wire x1="3.81" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="6.35" y2="2.54" width="0.254" layer="94"/>
-<wire x1="6.35" y1="2.54" x2="7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="6.35" y2="2.54" width="0.254" layer="94"/>
-<wire x1="6.35" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="1.905" y1="-1.27" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="10.16" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-3.175" x2="5.08" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="-5.08" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="8.89" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="5.08" y1="-3.175" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="10.16" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="7.62" x2="8.89" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="8.89" y1="7.62" x2="8.89" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="7.62" x2="-5.08" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="-5.08" y2="-5.08" width="0.1524" layer="94"/>
-<circle x="5.08" y="5.08" radius="0.127" width="0.4064" layer="94"/>
-<circle x="5.08" y="-3.175" radius="0.127" width="0.4064" layer="94"/>
-<text x="-5.1054" y="8.2296" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.1054" y="-10.0838" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A" x="-7.62" y="5.08" visible="pad" length="short" direction="pas"/>
-<pin name="C" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas"/>
-<pin name="A1" x="12.7" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="A2" x="12.7" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
-</symbol>
 <symbol name="CON_1X4PIN">
 <wire x1="-6.35" y1="-2.54" x2="1.27" y2="-2.54" width="0.4064" layer="94"/>
 <wire x1="1.27" y1="-2.54" x2="1.27" y2="10.16" width="0.4064" layer="94"/>
@@ -8507,24 +8427,6 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <connect gate="G$1" pin="P1" pad="2"/>
 <connect gate="G$1" pin="S" pad="3"/>
 <connect gate="G$1" pin="S1" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="S2S4BY0F" prefix="T">
-<gates>
-<gate name="G$1" symbol="OPTOTRIAC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="S2S4BY0F">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="A1" pad="3"/>
-<connect gate="G$1" pin="A2" pad="4"/>
-<connect gate="G$1" pin="C" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9116,8 +9018,8 @@ The old path of data sheet not more available 2013-05-06.</description>
 </part>
 <part name="+3V34" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND17" library="supply" deviceset="GND" device=""/>
-<part name="LED1" library="led" deviceset="LED" device="3MM" value="RED/GREEN">
-<attribute name="TME_ORDER_NUMBER" value="L-937EGW"/>
+<part name="LED1" library="led" deviceset="LED" device="5MM" value="RED/GREEN">
+<attribute name="TME_ORDER_NUMBER" value="L-57EGW"/>
 </part>
 <part name="C10" library="resistor" deviceset="C-EU" device="C0603K" value="2.2u/10V">
 <attribute name="TME_ORDER_NUMBER" value="CL10A225KP8NNNC"/>
@@ -9144,7 +9046,7 @@ The old path of data sheet not more available 2013-05-06.</description>
 </part>
 <part name="R5" library="resistor" deviceset="R-EU_" device="R0603" value="360"/>
 <part name="R4" library="resistor" deviceset="R-EU_" device="R0603" value="360"/>
-<part name="R3" library="resistor" deviceset="R-EU_" device="R0603" value="tbc"/>
+<part name="R3" library="resistor" deviceset="R-EU_" device="R0603" value="220"/>
 <part name="GND3" library="supply" deviceset="GND" device=""/>
 <part name="IC3" library="linear" deviceset="MCP1703" device="CB" value="MCP1703">
 <attribute name="TME_ORDER_NUMBER" value="MCP1703T3302ECB"/>
@@ -9196,9 +9098,6 @@ The old path of data sheet not more available 2013-05-06.</description>
 <part name="R12" library="resistor" deviceset="R-EU_" device="R0603" value="47"/>
 <part name="R13" library="resistor" deviceset="R-EU_" device="R0603" value="47"/>
 <part name="R15" library="resistor" deviceset="R-EU_" device="R0603" value="47"/>
-<part name="T1OLD" library="comp_wirelessnode" deviceset="S2S4BY0F" device="" value="S2S4BY0F">
-<attribute name="TME_ORDER_NUMBER" value="S2S4BY0F"/>
-</part>
 <part name="R14" library="resistor" deviceset="R-EU_" device="R0603" value="47"/>
 <part name="R1" library="comp_wirelessnode" deviceset="R_" device="CF1WS" value="10">
 <attribute name="TME_ORDER_NUMBER" value="CF1WS-10R"/>
@@ -9206,12 +9105,14 @@ The old path of data sheet not more available 2013-05-06.</description>
 <part name="D1" library="comp_wirelessnode" deviceset="SL1G" device="" value="1A/400V">
 <attribute name="TME_ORDER_NUMBER" value="SL1G-DIO"/>
 </part>
-<part name="T1" library="optocoupler" deviceset="MOC30*" device="S" technology="42"/>
+<part name="T1" library="optocoupler" deviceset="MOC30*" device="S" technology="42" value="MOC3063XSM">
+<attribute name="TME_ORDER_NUMBER" value="MOC3063XSM"/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="48.26" y="127" size="1.778" layer="97">LED current = 21mA</text>
+<text x="48.26" y="127" size="1.778" layer="97">LED current = 10mA</text>
 </plain>
 <instances>
 <instance part="IC2" gate="G$1" x="190.5" y="116.84">
@@ -9335,9 +9236,6 @@ The old path of data sheet not more available 2013-05-06.</description>
 <instance part="R12" gate="G$1" x="220.98" y="116.84"/>
 <instance part="R13" gate="G$1" x="220.98" y="114.3"/>
 <instance part="R15" gate="G$1" x="220.98" y="106.68"/>
-<instance part="T1OLD" gate="G$1" x="119.38" y="149.86">
-<attribute name="TME_ORDER_NUMBER" x="119.38" y="149.86" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="R14" gate="G$1" x="220.98" y="111.76"/>
 <instance part="R1" gate="G$1" x="38.1" y="35.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="39.37" y="39.1414" size="1.778" layer="95" rot="R180"/>
@@ -9347,7 +9245,9 @@ The old path of data sheet not more available 2013-05-06.</description>
 <instance part="D1" gate="G$1" x="48.26" y="35.56">
 <attribute name="TME_ORDER_NUMBER" x="48.26" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="T1" gate="-1" x="81.28" y="129.54"/>
+<instance part="T1" gate="-1" x="81.28" y="129.54">
+<attribute name="TME_ORDER_NUMBER" x="81.28" y="129.54" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9570,8 +9470,8 @@ The old path of data sheet not more available 2013-05-06.</description>
 <net name="LED_TX_ERR2" class="0">
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
-<wire x1="48.26" y1="162.56" x2="48.26" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="157.48" x2="81.28" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="162.56" x2="48.26" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="154.94" x2="81.28" y2="154.94" width="0.1524" layer="91"/>
 <label x="66.04" y="157.48" size="1.778" layer="95"/>
 </segment>
 <segment>
