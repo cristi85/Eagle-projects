@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8225,6 +8225,44 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <wire x1="-1.5" y1="-1" x2="-1.5" y2="-0.9" width="0.1016" layer="21"/>
 <wire x1="1.5" y1="-1" x2="1.5" y2="-0.9" width="0.1016" layer="21"/>
 </package>
+<package name="TO220_SMD">
+<rectangle x1="2.159" y1="-6.45" x2="2.921" y2="-4.545" layer="51"/>
+<rectangle x1="-0.381" y1="-6.45" x2="0.381" y2="-4.545" layer="51"/>
+<rectangle x1="-2.921" y1="-6.45" x2="-2.159" y2="-4.545" layer="51"/>
+<wire x1="-5.207" y1="-2.64" x2="5.207" y2="-2.64" width="0.1524" layer="51"/>
+<wire x1="5.207" y1="13.235" x2="-5.207" y2="13.235" width="0.1524" layer="51"/>
+<wire x1="5.207" y1="-2.64" x2="5.207" y2="9.806" width="0.1524" layer="51"/>
+<wire x1="5.207" y1="9.806" x2="4.318" y2="9.806" width="0.1524" layer="51"/>
+<wire x1="4.318" y1="9.806" x2="4.318" y2="11.33" width="0.1524" layer="51"/>
+<wire x1="4.318" y1="11.33" x2="5.207" y2="11.33" width="0.1524" layer="51"/>
+<wire x1="5.207" y1="11.33" x2="5.207" y2="13.235" width="0.1524" layer="51"/>
+<wire x1="-5.207" y1="-2.64" x2="-5.207" y2="9.806" width="0.1524" layer="51"/>
+<wire x1="-5.207" y1="9.806" x2="-4.318" y2="9.806" width="0.1524" layer="51"/>
+<wire x1="-4.318" y1="9.806" x2="-4.318" y2="11.33" width="0.1524" layer="51"/>
+<wire x1="-4.318" y1="11.33" x2="-5.207" y2="11.33" width="0.1524" layer="51"/>
+<wire x1="-5.207" y1="11.33" x2="-5.207" y2="13.235" width="0.1524" layer="51"/>
+<wire x1="-4.572" y1="-2.005" x2="4.572" y2="-2.005" width="0.0508" layer="51"/>
+<wire x1="4.572" y1="6.25" x2="4.572" y2="-2.005" width="0.0508" layer="51"/>
+<wire x1="4.572" y1="6.25" x2="-4.572" y2="6.25" width="0.0508" layer="51"/>
+<wire x1="-4.572" y1="-2.005" x2="-4.572" y2="6.25" width="0.0508" layer="51"/>
+<circle x="0" y="9.806" radius="1.8034" width="0.1524" layer="51"/>
+<text x="-5.461" y="-2.64" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-3.937" y="1.17" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="2.159" y1="-5.815" x2="2.921" y2="-5.18" layer="21"/>
+<rectangle x1="-0.381" y1="-5.815" x2="0.381" y2="-5.18" layer="21"/>
+<rectangle x1="-2.921" y1="-5.815" x2="-2.159" y2="-5.18" layer="21"/>
+<rectangle x1="-3.175" y1="-5.38" x2="-1.905" y2="-2.84" layer="21"/>
+<rectangle x1="-0.635" y1="-5.38" x2="0.635" y2="-2.84" layer="21"/>
+<rectangle x1="1.905" y1="-5.38" x2="3.175" y2="-2.84" layer="21"/>
+<rectangle x1="2.159" y1="-7.72" x2="2.921" y2="-5.815" layer="51"/>
+<rectangle x1="-0.381" y1="-7.72" x2="0.381" y2="-5.815" layer="51"/>
+<rectangle x1="-2.921" y1="-7.72" x2="-2.159" y2="-5.815" layer="51"/>
+<rectangle x1="-5.4" y1="-2.8" x2="5.45" y2="13.5" layer="29"/>
+<hole x="0" y="9.806" drill="3.2"/>
+<smd name="1" x="-2.54" y="-7.72" dx="1" dy="2.7" layer="1"/>
+<smd name="2" x="0" y="-7.72" dx="1" dy="2.7" layer="1"/>
+<smd name="3" x="2.54" y="-7.72" dx="1" dy="2.7" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RFM69HW-V1.3">
@@ -8551,6 +8589,16 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 </gates>
 <devices>
 <device name="" package="TO220">
+<connects>
+<connect gate="G$1" pin="A1" pad="1"/>
+<connect gate="G$1" pin="A2" pad="2"/>
+<connect gate="G$1" pin="G" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD" package="TO220_SMD">
 <connects>
 <connect gate="G$1" pin="A1" pad="1"/>
 <connect gate="G$1" pin="A2" pad="2"/>
@@ -9000,7 +9048,9 @@ The old path of data sheet not more available 2013-05-06.</description>
 <attribute name="TME_ORDER_NUMBER" value="DTSM-63N-V-B"/>
 </part>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device="" value="EmitterSwitch"/>
-<part name="R9" library="resistor" deviceset="R-EU_" device="R0603" value="3.3k"/>
+<part name="R9" library="resistor" deviceset="R-EU_" device="R0603" value="3.3k">
+<attribute name="TME_ORDER_NUMBER" value="RC0603FR-073K3"/>
+</part>
 <part name="C4" library="comp_RFSwitch_v3" deviceset="C-POL-EU" device="E5-10,5" value="4.7u/400V">
 <attribute name="TME_ORDER_NUMBER" value="RD2G475M1012MBB"/>
 </part>
@@ -9039,9 +9089,13 @@ The old path of data sheet not more available 2013-05-06.</description>
 <part name="C6" library="comp_wirelessnode" deviceset="C-POL-EU" device="" value="4.7u/50V">
 <attribute name="TME_ORDER_NUMBER" value="RC1H475M05005VR"/>
 </part>
-<part name="R7" library="resistor" deviceset="R-EU_" device="R0603" value="8.6K"/>
-<part name="R6" library="resistor" deviceset="R-EU_" device="R0603" value="2k"/>
-<part name="T2" library="comp_wirelessnode" deviceset="BT136" device="" value="BTA16">
+<part name="R7" library="resistor" deviceset="R-EU_" device="R0603" value="8.6K">
+<attribute name="TME_ORDER_NUMBER" value="CRCW06038K66FKTABC "/>
+</part>
+<part name="R6" library="resistor" deviceset="R-EU_" device="R0603" value="2k">
+<attribute name="TME_ORDER_NUMBER" value="RC0603FR-072K"/>
+</part>
+<part name="T2" library="comp_wirelessnode" deviceset="BT136" device="SMD" value="BTA16">
 <attribute name="TME_ORDER_NUMBER" value="BTA16-600BRG"/>
 </part>
 <part name="R5" library="resistor" deviceset="R-EU_" device="R0603" value="360"/>
@@ -9051,8 +9105,8 @@ The old path of data sheet not more available 2013-05-06.</description>
 <part name="IC3" library="linear" deviceset="MCP1703" device="CB" value="MCP1703">
 <attribute name="TME_ORDER_NUMBER" value="MCP1703T3302ECB"/>
 </part>
-<part name="C13" library="resistor" deviceset="C-EU" device="C0603K" value="10u/6.3V">
-<attribute name="TME_ORDER_NUMBER" value="CL10A106KQ8NNNC"/>
+<part name="C13" library="resistor" deviceset="C-EU" device="C0603K" value="10u/10V">
+<attribute name="TME_ORDER_NUMBER" value="0603ZD106MAT2A"/>
 </part>
 <part name="GND18" library="supply" deviceset="GND" device=""/>
 <part name="C11" library="resistor" deviceset="C-EU" device="C1206" value="10u/25V">
@@ -9105,8 +9159,8 @@ The old path of data sheet not more available 2013-05-06.</description>
 <part name="D1" library="comp_wirelessnode" deviceset="SL1G" device="" value="1A/400V">
 <attribute name="TME_ORDER_NUMBER" value="SL1G-DIO"/>
 </part>
-<part name="T1" library="optocoupler" deviceset="MOC30*" device="S" technology="42" value="MOC3063XSM">
-<attribute name="TME_ORDER_NUMBER" value="MOC3063XSM"/>
+<part name="T1" library="optocoupler" deviceset="MOC30*" device="S" technology="42" value="VO3063-X007T">
+<attribute name="TME_ORDER_NUMBER" value="VO3063-X007T"/>
 </part>
 </parts>
 <sheets>
@@ -9138,7 +9192,9 @@ The old path of data sheet not more available 2013-05-06.</description>
 <attribute name="TME_ORDER_NUMBER" x="236.22" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="R9" gate="G$1" x="170.18" y="45.72" rot="R90"/>
+<instance part="R9" gate="G$1" x="170.18" y="45.72" rot="R90">
+<attribute name="TME_ORDER_NUMBER" x="170.18" y="45.72" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="C4" gate="G$1" x="78.74" y="33.02">
 <attribute name="TME_ORDER_NUMBER" x="78.74" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
@@ -9177,8 +9233,12 @@ The old path of data sheet not more available 2013-05-06.</description>
 <instance part="C6" gate="G$1" x="129.54" y="63.5">
 <attribute name="TME_ORDER_NUMBER" x="129.54" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R7" gate="G$1" x="121.92" y="66.04"/>
-<instance part="R6" gate="G$1" x="114.3" y="60.96" rot="R90"/>
+<instance part="R7" gate="G$1" x="121.92" y="66.04">
+<attribute name="TME_ORDER_NUMBER" x="121.92" y="66.04" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R6" gate="G$1" x="114.3" y="60.96" rot="R90">
+<attribute name="TME_ORDER_NUMBER" x="114.3" y="60.96" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="T2" gate="G$1" x="104.14" y="127">
 <attribute name="TME_ORDER_NUMBER" x="104.14" y="127" size="1.778" layer="96" display="off"/>
 </instance>
