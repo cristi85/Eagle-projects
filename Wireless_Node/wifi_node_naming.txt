@@ -1,0 +1,9 @@
+Wifi node R1-T1-T1 v1.0
+R1 - radio type    (1-RFM69HW)
+T1 - actuator type (T-triac, 1-BTA16-800)
+T1 - sensor type   (T-temperature, 1-DS18B20)
+
+Wifi node R1-R1-T1 v1.0
+R1 - radio type    (1-RFM69HW)
+R1 - actuator type (R-relay, 1-G5Q-1A4-EU-12DC)
+T1 - sensor type   (T-temperature, 1-DS18B20)
